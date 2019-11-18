@@ -133,6 +133,8 @@ curl -X POST https://api.moltin.com/v2/customers/:customerId/addresses \
      -H "Content-Type: application/json" \
      -d $'{
        "data": {
+         "type": "address"
+         "id": "addressId"
          "name": "Home",
          "first_name": "Ron",
          "last_name": "Swanson",

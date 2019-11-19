@@ -172,6 +172,13 @@ curl -X "PUT" https://api.moltin.com/v2/products/:id \
             "type": "product",
             "id": "XXXX",
             "name": "Updated product name"
+            "price": [
+            {
+                "amount": 2000,
+                "currency": "USD",
+                "includes_tax": false
+            }
+        ]
         }
     }'
 ```

@@ -58,7 +58,7 @@ Currency of this price \(3 letter ISO\)
 true if relevant taxes have been included in the price, `false` if not
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="status" type="string" required=false %}
+{% api-method-parameter name="status" type="string" required=true %}
 `draft`, `live`
 {% endapi-method-parameter %}
 
